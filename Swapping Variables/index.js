@@ -2,8 +2,9 @@ let firstname = "Sarah";
 let lastname = "Flesher";
 
 //new code goes here
-firstname = lastname
-lastname = firstname
+let memory = firstname;
+firstname = lastname;
+lastname = memory;
 
 // Print variables to console
 console.log("My first name is: " + firstname);
