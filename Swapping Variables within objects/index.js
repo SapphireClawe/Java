@@ -1,4 +1,4 @@
-console.log('Hello World');
+console.log('Swapping Variables within objects');
 
 // Create 10 variables about yourself
 let SarahFlesher = {
