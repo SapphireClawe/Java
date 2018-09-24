@@ -25,3 +25,5 @@ console.log(beauty);
 console.log(female);
 
 console.log(SarahFlesher);
+
+console.log(SarahFlesher.firstname);
