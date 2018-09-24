@@ -1,29 +1,19 @@
-console.log('Swapping Variables within objects');
-
 // Create 10 variables about yourself
-let SarahFlesher = {
-  firstname: "Sarah",
-  lastname: "Flesher",
-  age: "18",
-  ageAfraid: null,
-  height: "5'7",
-  hair colour: "blonde",
-  eye colour: "blue",
-  beauty: null,
-  female: true,
-}
+let SarahFlesher = [];
+let MeganSpence = [];
+
+// firstname, lastname, age, ageAfraid, hair, female, male
+
+SarahFlesher = ["Sarah", "Flesher", 18, null, true, true, false];
+MeganSpence = ["Megan", "Spence", 14, null, true, true, false];
+
+
 
 
 // Print variables to console
-console.log(name);
-console.log(age);
-console.log(ageAfraid);
-console.log(height);
-console.log(hair colour);
-console.log(eye colour);
-console.log(beauty);
-console.log(female);
+console.log(SarahFlesher[]);
+console.log(MeganSpence[]);
 
-console.log(SarahFlesher);
 
-console.log(SarahFlesher.firstname);
+console.log("Last name is: " = SarahFlesher[1]);
+console.log("Last name is: " = MeganSpence[1]);
