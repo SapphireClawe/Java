@@ -1,4 +1,10 @@
-// Create 10 variables about yourself
+console.log("Using array-data-structure, write a function(s) to switch the content");
+
+
+function switch (lastname1, lastname2) {
+  
+
+}
 
 
 let SarahFlesher = [];
