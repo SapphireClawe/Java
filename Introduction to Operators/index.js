@@ -12,13 +12,13 @@ function simpleOperators (numberA, numberB){
 function skipCounting (skipCount, times, startingNumber){
   let number = startingNumber;
   for (let i=1; i<=5; i++){
-    skipCount += skipCount;
-    console.log(skipCount);
+    number += skipCount;
+    console.log(number);
   }
 }
 
-let number = [4, 7, 13, 99];
+let number = [4, 2, 13, 99];
 simpleOperators (number[0], number[1]);
 simpleOperators (number[2], number[3]);
-skipCounting (3, 6, 113);
+skipCounting (3, 6, 110);
 let skipCount = 15;
