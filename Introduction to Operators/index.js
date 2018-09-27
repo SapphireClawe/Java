@@ -20,5 +20,5 @@ function skipCounting (skipCount, times, startingNumber){
 let number = [4, 7, 13, 99];
 simpleOperators (number[0], number[1]);
 simpleOperators (number[2], number[3]);
-skipCount (3, 6, 113);
+skipCounting (3, 6, 113);
 let skipCount = 15;
