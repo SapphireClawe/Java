@@ -17,8 +17,17 @@ function skipCounting (skipCount, times, startingNumber){
   }
 }
 
+// function simpleComparison
+while (number <= 100) {
+  let number = 0;
+  console.log(number);
+  number += skipCount;
+
+}
+
+console.log(1 == 1);
+console.log('1' == 1);
+
 let number = [4, 2, 13, 99];
-simpleOperators (number[0], number[1]);
 simpleOperators (number[2], number[3]);
-skipCounting (3, 6, 110);
 let skipCount = 15;
