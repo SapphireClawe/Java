@@ -18,7 +18,7 @@ function skipCounting (skipCount, times, startingNumber){
 }
 
 // function simpleComparison
-while (number <= 100) {
+while (number += 100) {
   let number = 0;
 
 
