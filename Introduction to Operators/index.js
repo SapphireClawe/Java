@@ -35,22 +35,25 @@ let number = [4, 2, 13, 99, 0, 100, 5, 1, '1'];
 
 
 
-LooseEquality(number[7], number[7]);
-LooseEquality(number[8], number[7]);
+//LooseEquality(number[7], number[7]);
+//LooseEquality(number[8], number[7]);
 
-StrictEquality(number[8], number[7]);
+//StrictEquality(number[8], number[7]);
 
-function notEqual(valueArray, i){
-  if (number[i] !=5) {
-    console.log(number[1], "Is index number: ", i, "with a total array index of ", number.length)
-    return i;
-  }else {console.log("5 is at the index", i); i=number.length}
+//function notEqual(valueArray, i){
+//  if (number[i] !=5) {
+//    console.log(number[1], "Is index number: ", i, "with a total array index of ", number.length)
+//    return i;
+//  }else {console.log("5 is at the index", i); i=number.length}
 
-  for (let i=0; i<number.length; i++){
+//  for (let i=0; i<number.length; i++){
 
-  }
-}
+//  }
+//let number = [4, 2, 13, 99, 0, 100, 5, 1, '1'];
+//  notEqual (if i == number[i], i )
+//}
 
-for (let i=0; i==done; i++) {
-  notEqual (number[i], i )
-}
+let userColour = 'red';
+let defaultColor = 'blue';
+let currentColor = userColor || defaultColor;
+console.log(currentColor);
