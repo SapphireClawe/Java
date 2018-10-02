@@ -25,9 +25,9 @@ while (number <= 100) {
 
 }
 
-console.log(1 == 1);
-console.log('1' == 1);
+function LooseEquality (firstOperand, secondOperand) {
+  console.log(firstOperand === secondOperand);
+}
 
-let number = [4, 2, 13, 99];
-simpleOperators (number[2], number[3]);
-let skipCount = 15;
+
+let number = [4, 2, 13, 99, 0, 100, 5, 1, '1'];
