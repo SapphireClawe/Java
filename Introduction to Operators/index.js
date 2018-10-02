@@ -50,7 +50,7 @@ function notEqual(valueArray, i){
 
   }
 }
-let number = [4, 2, 13, 99, 0, 100, 5, 1, '1'];
+
 for (let i=0; i==done; i++) {
   notEqual (number[i], i )
 }
