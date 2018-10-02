@@ -24,9 +24,17 @@ while (number <= 100) {
 
 }
 
-function LooseEquality (firstOperand, secondOperand) {
-  console.log(firstOperand === secondOperand);
+function LooseEquality (firstOperand, secondOperant) {
+  console.log(firstOperand === secondOperant);
+}
+function StrictEquality (firstOperand, secondOperant) {
+  console.log(firstOperand === secondOperant);
 }
 
-
 let number = [4, 2, 13, 99, 0, 100, 5, 1, '1'];
+
+
+LooseEquality(number[7], number[7]);
+LooseEquality(number[8], number[8]);
+
+StrictEquality(number[8], number[7]);
