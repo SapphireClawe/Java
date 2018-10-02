@@ -53,7 +53,11 @@ let number = [4, 2, 13, 99, 0, 100, 5, 1, '1'];
 //  notEqual (if i == number[i], i )
 //}
 
-let userColour = 'red';
-let defaultColor = 'blue';
-let currentColor = userColor || defaultColor;
-console.log(currentColor);
+//let userColour = 'red';
+//let defaultColor = 'blue';
+//let currentColor = userColor || defaultColor;
+//console.log(currentColor);
+
+let points = 90;
+let type = points > 100 ? 'gold' : 'silver'
+console.log(type);
