@@ -39,8 +39,7 @@ LooseEquality(number[8], number[7]);
 
 StrictEquality(number[8], number[7]);
 
-
-for (let i=0; i<number.length; i++) {
+function notEqual(){
   if (number[i] !=5) {
     console.log(number[1], "Is index number: ", i, "with a total array index of ", number.length)
   }else {console.log("5 is at the index", i); i=number.length}
